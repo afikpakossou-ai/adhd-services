@@ -2,3 +2,5 @@ name = "nc-telepsychiatric-backend"
 main = "src/index.ts"
 compatibility_date = "2025-01-01"
 compatibility_flags = ["nodejs_compat"]
+> nc-telepsychiatric-backend@1.0.0 build
+> wrangler deploy --dry-run
