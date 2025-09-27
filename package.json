@@ -1,15 +1,19 @@
 {
-  "name": "nc-telepsychiatric-backend",
+  "name": "nc-adult-adhd-services",
   "version": "1.0.0",
-  "description": "Backend API for NC Telepsychiatric contact form and lead management",
+  "private": true,
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "build": "wrangler deploy --dry-run"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241106.0",
-    "typescript": "^5.0.0",
-    "wrangler": "^3.0.0"
+    "vite": "^5.4.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "^5.4.0"
   }
 }
